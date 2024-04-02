@@ -14,7 +14,7 @@ const wishListRouter = require("./routes/wishListRouter");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["https://mernfront-acyh.onrender.com/", "http://localhost:5174"],
     credentials: true,
   })
 );
